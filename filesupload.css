@@ -1,0 +1,145 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:10px;
+    height: 100vh;
+    width:100vw;
+    background: url("https://images.unsplash.com/photo-1508614999368-9260051292e5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8fHw%3D");
+    background-size: cover;
+}
+h1{
+    color:rgb(0, 64, 255);
+}
+#main{
+    height:60vh;
+    width:50vw;
+    min-width: 350px;
+    border:2px solid rgba(0, 0, 0, 0.344);
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+img{
+    height:95%;
+    max-width:95%;
+    object-fit: contain;
+}
+#filtercontainer{
+    width:50vw;
+    min-width: 350px;
+    display:flex;
+    justify-content: space-between;
+}
+#reset{
+    height:3vw;
+    width:15%;
+    min-width: 3vw;
+    font-size: 1vmax;
+    padding:10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#choosebtn{
+    height:3vw;
+    width:15%;
+    min-width: 3vw;
+    font-size: 1vmax;
+    padding:10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#slider{
+    width:65%;
+    height:inherit;
+    display: flex;
+    gap:3px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#lable{
+    font-size: 1.3vmax;
+}
+#slider input{
+    width:15vmax;
+}
+#value{
+    font-size: 1.3vmax;
+    margin-right: 8px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+#filter-pannel{
+    height:6vh;
+    width:50vw;
+    min-width: 350px;
+    border:0.5px solid rgba(0, 0, 0, 0.551);
+    border-radius: 5px;
+    overflow-x: scroll;
+}
+.box{
+    height:100%;
+    width:20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.buttonstyle{
+    height:60%;
+    width:95%;
+    outline:none;
+    background-color: whitesmoke;
+    border:none;
+    border-radius: 5px;
+    font-size: 1.3vmax;
+}
+.buttonstyle:hover{
+    background-color: rgba(0, 81, 254, 0.696);
+    color:white;
+}
+.active{
+    background-color: rgb(0, 64, 255);
+    color:white;
+}
+#nonflex{
+    height:inherit;
+    display:flex;
+    width:100vw;
+}
+#save{
+    background-color: whitesmoke;
+    color:rgb(8, 0, 0);
+    font-size: 1.2vmax;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding:10px 10px;
+    height:fit-content;
+    width:fit-content;
+}
+#save:hover{
+    background-color: rgb(87, 198, 49);
+    color:rgb(17, 1, 1);
+}
+.hide{
+    display:none;
+}

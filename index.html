@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fileupload</title>
+    <link rel="stylesheet" href="filesupload.css">
+</head>
+<body>
+  <h1> Image Editor</h1>
+    <div id="main">
+    <img src="" alt="image" class="hide" >
+    </div>
+    <input type="file" id=filing class="hide" accept=".jpg">
+   <div id="filtercontainer">
+    <button id="choosebtn" class="button">choose img</button>
+    <div id="slider">
+    <label for="filter" id="lable">brightness:</label>
+    <input type="range" id="range" value="100" min="0" max="200">
+    <p id="value">100%</p>
+  </div>
+    <button id="reset">reset</button>
+   </div>
+
+<div id="filter-pannel">
+  <div id="nonflex">
+    <div id="brightness" class="box"><button class="buttonstyle active">brightness</button></div>
+    <div id="saturation"  class="box" ><button class="buttonstyle">saturation</button></div>
+    <div id="contrast"  class="box"> <button class="buttonstyle">contrast</button></div>
+    <div id="hue"  class="box"> <button class="buttonstyle">grayscale</button></div>
+    <div id="negative"  class="box"><button class="buttonstyle">invert</button></div>
+  </div>
+</div>
+<button id="save">save image</button>
+    <script src="filesupload.js"> </script>
+</body>
+</html>
